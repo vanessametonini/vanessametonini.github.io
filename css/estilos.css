@@ -1,0 +1,31 @@
+body {
+  background-image: url('../img/fundo.jpg');
+  background-size: auto 100vh;
+  height: 100vh;
+}
+
+nav button {
+  background-color: cyan;
+  border: 4px ridge darkcyan;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.site-title {
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+}
+
+.site-subtitle {
+  color: silver;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#menu {
+  display: none;
+}
